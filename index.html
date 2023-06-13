@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="ro">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="GOIT Lectia1" />
+    <title>Lectia1</title>
+  </head>
+
+  <body>
+    <h1>GOIT Lectia1</h1>
+    <h2>Tag-uri și atribute</h2>
+    <section>Secțiune</section>
+    <p>Paragraf</p>
+    <a>Legătură</a>
+    <button>Buton</button>
+
+    <h2>Comentarii</h2>
+    <!-- Acesta este un comentariu, conținutul său nu va fi afișat pe pagină -->
+
+    <p>Acesta este un paragraf de text, acesta va fi afișat pe pagină.</p>
+
+    <!--
+  Comentariile pot ocupa mai multe rânduri.
+  Acest lucru este convenabil pentru descrieri mai ample.
+-->
+    <h2>Atribute</h2>
+    <a href="https://google.com" class="link">...</a>
+
+    <img src="cat.jpg" alt="cute cat" />
+
+    <input type="text" name="user_name" />
+
+    <button type="submit">...</button>
+
+    <p class="text">...</p>
+    <a
+      href="http://google.com"
+      target="_blank"
+      title="Motorul de căutare Google"
+    >
+      Google.com
+    </a>
+    <img
+      src="https://picsum.photos/640/480"
+      alt="Imagine arbitrară de la generator"
+    />
+
+    <h2>Tag-uri pereche</h2>
+    <!-- Articolul cu titlu și paragraf -->
+    <article>
+      <!-- Tag-ul <h1> este folosit cel mai des o singură dată, ca titlu principal al paginii. 
+        Restul titlurilor pot fi utilizate ori de câte ori doriți, dar să fie folosite în mod corect, respectând ierarhia. 
+        Este doar un exemplu la acest capitol-->
+
+      <h1>Pe scurt despre tag-urile pereche</h1>
+      <p>
+        Majoritatea tag-urilor sunt în perechi. Conținutul lor este cuprins
+        între tag-uri de deschidere și de închidere.
+      </p>
+    </article>
+
+    <h2>Tag-uri unice</h2>
+    <!-- Câmp de intrare -->
+    <input type="text" />
+
+    <!-- Imagine -->
+    <img src="cat.jpg" alt="cool cat" />
+
+    <h2>Suprapunerea tag-urilor</h2>
+    <p>
+      <a href="squoosh.app">Squoosh</a> - serviciu
+      <em>de optimizare</em> imagini.
+    </p>
+    <p>Beneficii:</p>
+    <ul>
+      <li>Rulează în browser;</li>
+      <li>Nu îngreunează funcționarea sistemului;</li>
+      <li>Interfață ușor de utilizat;</li>
+    </ul>
+
+    <h2>Fluxul de documente</h2>
+
+    <h3>Paragraful este un element de tip bloc</h3>
+    <p>Element de tip bloc 1</p>
+    <p>Element de tip bloc 2</p>
+    <p>Element de tip bloc 3</p>
+
+    <h3>Link-ul este un element inline</h3>
+    <a href="">Element de tip inline 1</a>
+    <a href="">Element de tip inline 2</a>
+    <a href="">Element de tip inline 3</a>
+
+    <h2>Marcajul unui text</h2>
+    <h3>Paragraful</h3>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque eligendi,
+      a eaque, esse itaque porro non exercitationem odio earum quos perferendis!
+    </p>
+
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo, totam
+      velit asperiores non temporibus ut nisi minima?
+    </p>
+    <p>
+      UTIL: În documentul HTML din editorul VSCode puteți introduce codul
+      lorem10, apoi să tastați Tab. Această acțiune va crea o matrice de text de
+      10 cuvinte. În loc de 10, puteți pune orice număr.
+    </p>
+
+    <h3>Titlurile</h3>
+
+    <h1>Page title</h1>
+    <!-- Tag-ul <h1> este folosit cel mai des o singură dată, ca titlu principal al paginii. 
+        Restul titlurilor pot fi utilizate ori de câte ori doriți, dar să fie folosite în mod corect, respectând ierarhia. 
+        Este doar un exemplu la acest capitol-->
+
+    <h2>Article title</h2>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde voluptas
+      necessitatibus, doloremque vero pariatur aut delectus neque sint maxime!
+      Dolore sed voluptatibus repellendus assumenda nostrum accusamus omnis,
+      nesciunt libero iusto.
+    </p>
+
+    <h3>Title of the first section of the article</h3>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum dolor
+      facere, labore explicabo recusandae magnam sit atque aspernatur quaerat
+      veritatis sunt veniam error velit odio excepturi pariatur eaque nesciunt
+      vero, minus animi. Explicabo molestiae modi magni labore iusto
+      reprehenderit et repellat odit quas nisi, atque aut quidem praesentium
+      nostrum mollitia?
+    </p>
+
+    <h4>Sub-section heading for the first section</h4>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum dolor
+      facere, labore explicabo recusandae magnam sit atque aspernatur quaerat
+      veritatis sunt veniam error velit odio excepturi pariatur eaque nesciunt
+      vero, minus animi.
+    </p>
+
+    <h3>Title of the second section of the article</h3>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum dolor
+      facere, labore explicabo recusandae magnam sit atque aspernatur quaerat
+      veritatis sunt veniam error velit odio excepturi pariatur eaque nesciunt
+      vero, minus animi. Explicabo molestiae modi magni labore iusto
+      reprehenderit et repellat odit quas nisi, atque aut quidem praesentium
+      nostrum mollitia?
+    </p>
+
+    <h4>Sub-section heading for the second section</h4>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum dolor
+      facere, labore explicabo recusandae magnam sit atque aspernatur quaerat
+      veritatis sunt veniam error velit odio excepturi pariatur eaque nesciunt
+      vero, minus animi.
+    </p>
+    <p>
+      <b
+        >Tag-ul h1 este folosit cel mai des o singură dată, ca titlu principal
+        al paginii. Restul titlurilor pot fi utilizate ori de câte ori doriți,
+        dar să fie folosite în mod corect, respectând ierarhia. UTIL: Motoarele
+        de căutare acordă o atenție deosebită titlurilor, așa că utilizarea
+        corectă a acestui grup de tag-uri este extrem de importantă. Nu
+        determinați nivelul titlului în funcție de dimensiunea textului de pe
+        machetă. Nu toate textele mari sunt titluri. Titlul reprezintă cuvântul
+        pus în fruntea secțiunii de conținut.</b
+      >
+    </p>
+
+    <h3>Listele</h3>
+
+    <h1>Cum se prepară ceaiul</h1>
+    <!-- Tag-ul <h1> este folosit cel mai des o singură dată, ca titlu principal al paginii. 
+        Restul titlurilor pot fi utilizate ori de câte ori doriți, dar să fie folosite în mod corect, respectând ierarhia. 
+        Este doar un exemplu la acest capitol-->
+    <p>Instrucțiuni pas cu pas pentru începători, doar repetă și vei reuși!</p>
+
+    <ol>
+      <li>Se fierbe apa;</li>
+      <li>Se pune ceaiul într-o ceașcă;</li>
+      <li>Se toarnă apă clocotită în ceașcă;</li>
+      <li>Așteaptă 10 minute, după care poți bea.</li>
+    </ol>
+
+    <h1>Cele mai căutate destinații</h1>
+    <!-- Tag-ul <h1> este folosit cel mai des o singură dată, ca titlu principal al paginii. 
+        Restul titlurilor pot fi utilizate ori de câte ori doriți, dar să fie folosite în mod corect, respectând ierarhia. 
+        Este doar un exemplu la acest capitol-->
+    <p>Anul acesta, experții recomandă să vizitați următoarele locații:</p>
+
+    <ul>
+      <li>Tunisia</li>
+      <li>Turcia</li>
+      <li>Grecia</li>
+      <li>Egipt</li>
+    </ul>
+
+    <h3>Listele imbricate</h3>
+    <ul>
+      <li>
+        Calculatoare și accesorii
+        <ul>
+          <li>Procesoare</li>
+          <li>Monitoare</li>
+          <li>Plăci video</li>
+        </ul>
+      </li>
+      <li>
+        Aparate electrocasnice
+        <ul>
+          <li>Frigidere</li>
+          <li>Televizoare</li>
+          <li>Mașini de spălat</li>
+        </ul>
+      </li>
+      <li>
+        Produse de uz casnic
+        <ul>
+          <li>Fotolii</li>
+          <li>Saltele</li>
+          <li>Șeminee electrice</li>
+        </ul>
+      </li>
+    </ul>
+
+    <h3>
+      Link-ul. <br />
+      Tag-ul a
+    </h3>
+    <a href="https://google.com">Link către pagina principală Google</a>
+
+    <h4>Atributele target și rel</h4>
+    <!-- Link către o resursă externă, care se deschide în fila curentă -->
+    <a href="https://www.facebook.com/">Facebook</a>
+
+    <!-- Link către o resursă externă, care se deschide într-o filă nouă -->
+    <a
+      href="https://www.facebook.com/"
+      target="_blank"
+      rel="noreferrer noopener"
+    >
+      Facebook
+    </a>
+
+    <h4>Atributul download</h4>
+    <!-- Link pentru descărcarea unui fișier -->
+    <a href="/cale/către/cv.pdf" download>Descarcă CV</a>
+
+    <h4>Semnificații speciale href</h4>
+    <!-- Link către un număr de telefon -->
+    <a href="tel:+14251234563">+1 (425) 123-45-63</a>
+
+    <!-- Link către o adresă de e-mail  -->
+    <a href="mailto:example@mail.com">example@mail.com</a>
+
+    <h4>Ancore</h4>
+    <p>
+      Ancora este folosită pentru a naviga către pagina curentă. De exemplu,
+      pentru a sări rapid la o secțiune (ca în aceste materiale). Când faceți
+      clic pe un astfel de link, browserul va derula pagina până la ancoră fără
+      a o reîncărca. <br />
+      Pentru a crea o ancoră, trebuie să adăugați tag-ul la care doriți să
+      derulați pagina, atributul id este un identificator unic. Iar atributul
+      href al link-ului este setat la o valoare care începe cu caracterul #,
+      după care este specificat identificatorul elementului.
+    </p>
+    <h1>Dental clinic website</h1>
+    <!-- Tag-ul <h1> este folosit cel mai des o singură dată, ca titlu principal al paginii. 
+        Restul titlurilor pot fi utilizate ori de câte ori doriți, dar să fie folosite în mod corect, respectând ierarhia. 
+        Este doar un exemplu la acest capitol-->
+
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#features">Features</a></li>
+      <li><a href="#team">Team</a></li>
+      <li><a href="#reviews">Testimonials</a></li>
+    </ul>
+
+    <section>
+      <h2 id="about">About</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, quod.
+        Nulla ea nobis magnam, fuga vitae temporibus similique quasi, et autem,
+        voluptas ipsam nesciunt! Cumque quisquam id, provident odio maxime
+        tempore molestiae doloribus perspiciatis mollitia temporibus ex veniam
+        hic velit quaerat eius similique rem, enim vero nostrum minus libero
+        iusto voluptate ea error! Cupiditate nam magnam nostrum quae at
+        veritatis consequuntur. Aliquam animi ex earum fugiat iste hic
+        voluptatum, illo quod modi aut quia pariatur a amet repellat minima,
+        doloremque quis veniam tempore ullam accusantium natus aspernatur
+        exercitationem ipsum quas. Eveniet eligendi sunt, nisi placeat dolor
+        ducimus sit distinctio corporis.
+      </p>
+      <p>
+        Sequi doloribus voluptate nulla recusandae, aspernatur optio autem
+        fugiat cum laboriosam soluta? Saepe fugit modi sequi, illum aut voluptas
+        distinctio esse placeat incidunt ea quasi libero dolor expedita sed
+        consequuntur ullam rem, molestiae dolore nostrum obcaecati officia
+        aperiam debitis consectetur ipsam? Illo earum nam quibusdam, repellendus
+        architecto facilis iusto doloremque repellat ea nemo odio, non ad
+        consequuntur distinctio dignissimos id quas reiciendis? Iste consequatur
+        temporibus magnam quos quis voluptatum. Delectus impedit commodi est
+        nobis quaerat maiores quidem sed ipsum odio fugiat architecto reiciendis
+        dolore, molestias porro, temporibus ipsa iste perferendis enim ut ullam
+        corrupti deserunt illo quibusdam. Architecto, fuga modi?
+      </p>
+    </section>
+
+    <section>
+      <h2 id="features">Features</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, quod.
+        Nulla ea nobis magnam, fuga vitae temporibus similique quasi, et autem,
+        voluptas ipsam nesciunt! Cumque quisquam id, provident odio maxime
+        tempore molestiae doloribus perspiciatis mollitia temporibus ex veniam
+        hic velit quaerat eius similique rem, enim vero nostrum minus libero
+        iusto voluptate ea error! Cupiditate nam magnam nostrum quae at
+        veritatis consequuntur. Aliquam animi ex earum fugiat iste hic
+        voluptatum, illo quod modi aut quia pariatur a amet repellat minima,
+        doloremque quis veniam tempore ullam accusantium natus aspernatur
+        exercitationem ipsum quas. Eveniet eligendi sunt, nisi placeat dolor
+        ducimus sit distinctio corporis.
+      </p>
+      <p>
+        Sequi doloribus voluptate nulla recusandae, aspernatur optio autem
+        fugiat cum laboriosam soluta? Saepe fugit modi sequi, illum aut voluptas
+        distinctio esse placeat incidunt ea quasi libero dolor expedita sed
+        consequuntur ullam rem, molestiae dolore nostrum obcaecati officia
+        aperiam debitis consectetur ipsam? Illo earum nam quibusdam, repellendus
+        architecto facilis iusto doloremque repellat ea nemo odio, non ad
+        consequuntur distinctio dignissimos id quas reiciendis? Iste consequatur
+        temporibus magnam quos quis voluptatum. Delectus impedit commodi est
+        nobis quaerat maiores quidem sed ipsum odio fugiat architecto reiciendis
+        dolore, molestias porro, temporibus ipsa iste perferendis enim ut ullam
+        corrupti deserunt illo quibusdam. Architecto, fuga modi?
+      </p>
+    </section>
+
+    <section>
+      <h2 id="team">Team</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, quod.
+        Nulla ea nobis magnam, fuga vitae temporibus similique quasi, et autem,
+        voluptas ipsam nesciunt! Cumque quisquam id, provident odio maxime
+        tempore molestiae doloribus perspiciatis mollitia temporibus ex veniam
+        hic velit quaerat eius similique rem, enim vero nostrum minus libero
+        iusto voluptate ea error! Cupiditate nam magnam nostrum quae at
+        veritatis consequuntur. Aliquam animi ex earum fugiat iste hic
+        voluptatum, illo quod modi aut quia pariatur a amet repellat minima,
+        doloremque quis veniam tempore ullam accusantium natus aspernatur
+        exercitationem ipsum quas. Eveniet eligendi sunt, nisi placeat dolor
+        ducimus sit distinctio corporis.
+      </p>
+      <p>
+        Sequi doloribus voluptate nulla recusandae, aspernatur optio autem
+        fugiat cum laboriosam soluta? Saepe fugit modi sequi, illum aut voluptas
+        distinctio esse placeat incidunt ea quasi libero dolor expedita sed
+        consequuntur ullam rem, molestiae dolore nostrum obcaecati officia
+        aperiam debitis consectetur ipsam? Illo earum nam quibusdam, repellendus
+        architecto facilis iusto doloremque repellat ea nemo odio, non ad
+        consequuntur distinctio dignissimos id quas reiciendis? Iste consequatur
+        temporibus magnam quos quis voluptatum. Delectus impedit commodi est
+        nobis quaerat maiores quidem sed ipsum odio fugiat architecto reiciendis
+        dolore, molestias porro, temporibus ipsa iste perferendis enim ut ullam
+        corrupti deserunt illo quibusdam. Architecto, fuga modi?
+      </p>
+    </section>
+
+    <section>
+      <h2 id="reviews">Testimonials</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, quod.
+        Nulla ea nobis magnam, fuga vitae temporibus similique quasi, et autem,
+        voluptas ipsam nesciunt! Cumque quisquam id, provident odio maxime
+        tempore molestiae doloribus perspiciatis mollitia temporibus ex veniam
+        hic velit quaerat eius similique rem, enim vero nostrum minus libero
+        iusto voluptate ea error! Cupiditate nam magnam nostrum quae at
+        veritatis consequuntur. Aliquam animi ex earum fugiat iste hic
+        voluptatum, illo quod modi aut quia pariatur a amet repellat minima,
+        doloremque quis veniam tempore ullam accusantium natus aspernatur
+        exercitationem ipsum quas. Eveniet eligendi sunt, nisi placeat dolor
+        ducimus sit distinctio corporis.
+      </p>
+      <p>
+        Sequi doloribus voluptate nulla recusandae, aspernatur optio autem
+        fugiat cum laboriosam soluta? Saepe fugit modi sequi, illum aut voluptas
+        distinctio esse placeat incidunt ea quasi libero dolor expedita sed
+        consequuntur ullam rem, molestiae dolore nostrum obcaecati officia
+        aperiam debitis consectetur ipsam? Illo earum nam quibusdam, repellendus
+        architecto facilis iusto doloremque repellat ea nemo odio, non ad
+        consequuntur distinctio dignissimos id quas reiciendis? Iste consequatur
+        temporibus magnam quos quis voluptatum. Delectus impedit commodi est
+        nobis quaerat maiores quidem sed ipsum odio fugiat architecto reiciendis
+        dolore, molestias porro, temporibus ipsa iste perferendis enim ut ullam
+        corrupti deserunt illo quibusdam. Architecto, fuga modi?
+      </p>
+    </section>
+
+    <h3>Butonul</h3>
+    <button type="button">Deschideți o fereastră modală</button>
+
+    <h3>Atributul lang</h3>
+    <p>Manual de utilizare</p>
+    <p lang="en">Operating instructions</p>
+    <p lang="fr">Manuel d'utilisation</p>
+
+    <h2>Imagini</h2>
+    <img
+      src="https://images.pexels.com/photos/67112/pexels-photo-67112.jpeg"
+      alt="Macbook Air pe o masă din lemn de culoare gri"
+      width="400"
+    />
+
+    <h3>Atributul alt</h3>
+    <img src="kittens.jpg" alt="Pisici" />
+    <img
+      src="kittens.jpg"
+      alt="Trei pisoi se joacă pe paie. Doi gri și unul negru."
+    />
+
+    <h3>Imagine cu link</h3>
+    <a href="https://www.pexels.com/photo/animals-sweet-cat-kitty-57416/">
+      <img
+        src="https://images.pexels.com/photos/57416/cat-sweet-kitty-animals-57416.jpeg?w=640"
+        alt="Pisică roșcată"
+        width="640"
+      />
+    </a>
+
+    <h3>Imagine cu legendă</h3>
+    <figure>
+      <!-- Conținut grafic arbitrar: fotografie, grafic, diagramă etc. -->
+      <img src="adresa imaginii" alt="text alternativ" />
+      <figcaption>Text explicativ care va fi sub imagine</figcaption>
+    </figure>
+
+    <h3>Calea absolută</h3>
+    <a
+      href="https://images.pexels.com/photos/583842/pexels-photo-583842.jpeg"
+      target="_blank"
+      rel="noopener noreferrer"
+      >link cu această adresă</a
+    >
+    <h3>Calea relativa</h3>
+    <a href="">
+      <img src="images/logo.png" alt="Sigla site-ului" />
+    </a>
+
+    <h2>Marcajul structural</h2>
+    <h3>header /footer /nav /main /article /section</h3>
+    <!-- Antetul paginii -->
+    <header>
+      <a href="/">Sigla site-ului</a>
+
+      <nav>
+        <!-- Navigarea către alte pagini -->
+        <ul>
+          <li><a href="/portfolio">Portfolio</a></li>
+          <li><a href="/contact">Contact</a></li>
+          <li><a href="/about">About</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Conținutul unic al paginii -->
+    <main>
+      <p>main</p>
+      <article>
+        <h1>Plăcintă dulce</h1>
+        <img src="link către imaginea plăcintei" alt="placintă" />
+        <p>
+          Plăcintă delicioasă la cuptor cu diferite umpluturi: cireșe, piersici,
+          prune sau căpșuni.
+        </p>
+        <p>Preț: 50 credite</p>
+      </article>
+      <section>
+        <h1>Cele mai populare plăcinte în această săptămână</h1>
+
+        <!-- În interiorul fiecărui <li> poate fi cardul plăcintei din secțiunea «Tag-ul <article>» -->
+        <ul>
+          <li>Prăjită cu ciuperci</li>
+          <li>Prăjită cu carne</li>
+          <li>La cuptor cu mere</li>
+          <li>La cuptor cu brânză de vaci</li>
+        </ul>
+      </section>
+    </main>
+
+    <!-- Subsolul paginii -->
+    <footer>
+      <!-- Drepturi de autor -->
+      <p>Toate drepturile rezervate &copy;lpj.dev</p>
+      <!-- Link-uri către rețelele sociale, ⚠️ NU nav -->
+      <ul>
+        <li><a href="">Facebook</a></li>
+        <li><a href="">Twitter</a></li>
+        <li><a href="">Instagram</a></li>
+      </ul>
+    </footer>
+
+    <h2>Marcajul paginii</h2>
+
+    <!-- Page header -->
+    <header>
+      <!-- The logo is always a link -->
+      <a href="/">
+        <img
+          src="https://www.flaticon.com/svg/static/icons/svg/616/616475.svg"
+          alt="Webstudio logo"
+          width="32"
+        />
+        Mango.dev
+      </a>
+
+      <!-- Main navigation -->
+      <nav>
+        <!--Links to other pages or sections of the current page -->
+        <ul>
+          <li><a href="">Portfolio</a></li>
+          <li><a href="">Contacts</a></li>
+          <li><a href="">About</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Unique page content -->
+    <main>
+      <!-- Features section -->
+      <section>
+        <h2>Features</h2>
+
+        <ul>
+          <li>
+            <img
+              src="https://cdn.pixabay.com/photo/2015/09/09/19/56/office-932926_1280.jpg"
+              alt="Workplace in the company"
+              width="320"
+            />
+            <h3>Experience</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius
+              repellendus voluptates sequi natus accusantium adipisci ratione
+              laborum sunt, modi nemo?
+            </p>
+          </li>
+          <li>
+            <img
+              src="https://cdn.pixabay.com/photo/2015/05/31/10/55/man-791049_1280.jpg"
+              alt="A man holds a tablet in his hands and drinks coffee"
+              width="320"
+            />
+            <h3>Technology stack</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius
+              repellendus voluptates sequi natus accusantium adipisci ratione
+              laborum sunt, modi nemo?
+            </p>
+          </li>
+          <li>
+            <img
+              src="https://cdn.pixabay.com/photo/2018/03/10/12/00/paper-3213924_1280.jpg"
+              alt="Four hands in a gesture of mutual assistance"
+              width="320"
+            />
+            <h3>Support</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius
+              repellendus voluptates sequi natus accusantium adipisci ratione
+              laborum sunt, modi nemo?
+            </p>
+          </li>
+        </ul>
+      </section>
+
+      <!-- Technology stack section -->
+      <section>
+        <h2>Our technology stack</h2>
+
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>React</li>
+          <li>Next.js</li>
+          <li>Node.js</li>
+          <li>PostgreSQL</li>
+        </ul>
+      </section>
+    </main>
+
+    <!-- Page footer -->
+    <footer>
+      <p>All rights reserved &copy;mango.dev</p>
+
+      <p>Our contacts in social networks:</p>
+      <ul>
+        <li><a href="">Facebook</a></li>
+        <li><a href="">Twitter</a></li>
+        <li><a href="">Instagram</a></li>
+      </ul>
+
+      <button type="button">Request a call back</button>
+    </footer>
+  </body>
+</html>
